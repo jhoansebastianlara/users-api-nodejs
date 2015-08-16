@@ -1,0 +1,31 @@
+{
+  "name": "users-basic",
+  "version": "1.0.0",
+  "description": "Esto es una aplicación que sirve como base para crear un módulo de usuarios en un proyecto NodeJS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "users",
+    "nodejs",
+    "demo",
+    "api",
+    "rest"
+  ],
+  "author": "Sebastián Lara <j@sebastianlara.co>",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^1.2.1",
+    "chai": "^3.0.0",
+    "express": "^4.13.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cors": "^2.7.1",
+    "lodash": "^3.9.3",
+    "mongoose": "^4.0.6"
+  }
+}

@@ -27,7 +27,7 @@ API REST que sirve como base para crear un módulo de usuarios en un proyecto.No
 
 ## Crear nuevo usuario [POST]
 
-### Request
+==Request==
 [POST] /users
 	{
 		"name": "Steve",
@@ -35,7 +35,7 @@ API REST que sirve como base para crear un módulo de usuarios en un proyecto.No
 		"phoneNumber": "+573127748821"
 	}
 
-### Response
+==Response==
 
 {
 	"user": {

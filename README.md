@@ -27,14 +27,15 @@ API REST que sirve como base para crear un módulo de usuarios en un proyecto.No
 
 ## Crear nuevo usuario [POST]
 
-Request [POST] /users
+### Request
+[POST] /users
 	{
 		"name": "Steve",
 		"lastname": "Jobs",
 		"phoneNumber": "+573127748821"
 	}
 
-Response
+### Response
 
 {
 	"user": {

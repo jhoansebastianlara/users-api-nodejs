@@ -27,7 +27,8 @@ API REST que sirve como base para crear un módulo de usuarios en un proyecto.No
 
 ## Crear nuevo usuario [POST]
 
-Request
+Request:
+
 [POST] /users
 	{
 		"name": "Steve",
@@ -35,7 +36,7 @@ Request
 		"phoneNumber": "+573127748821"
 	}
 
-Response
+Response:
 
 {
 	"user": {
@@ -47,9 +48,12 @@ Response
 }
 
 ## Obtener un usuario
-Request de GET /users/325
 
-Response
+Request:
+
+GET /users/325
+
+Response:
 
 {
 	"user": {
@@ -61,7 +65,10 @@ Response
 }
 
 ## Actualizar un usuario
-Request [PUT] /users/325
+
+Request:
+
+[PUT] /users/325
     {
         "name": "Steven",
         "lastname": "Lara",
@@ -69,7 +76,9 @@ Request [PUT] /users/325
     }
 
 ## Eliminar un usuario
-Request [DELETE] /users/325
+Request:
+
+[DELETE] /users/325
     {
         "name": "Steven",
         "lastname": "Lara",
@@ -77,9 +86,11 @@ Request [DELETE] /users/325
     }
 
 ## Obtener un listado de usuarios
-Request de GET /users
+Request:
 
-Response
+[GET] /users
+
+Response:
 
 {
     "users": [{

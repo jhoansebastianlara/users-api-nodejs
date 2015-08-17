@@ -1,7 +1,13 @@
 # users-api-nodejs
 API REST que sirve como base para crear un módulo de usuarios en un proyecto NodeJS.
 
-# Tests
+## Prerrequisitos
+Tener una instancia de mongodb corriendo: > mongod
+
+## Instalación
+> npm install
+
+## Tests
 > make test
 
 ## Métodos HTTP permitidos

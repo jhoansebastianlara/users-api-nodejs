@@ -1,5 +1,8 @@
 # users-api-nodejs
-API REST que sirve como base para crear un módulo de usuarios en un proyecto.NodeJS.
+API REST que sirve como base para crear un módulo de usuarios en un proyecto NodeJS.
+
+# Tests
+> make test
 
 ## Métodos HTTP permitidos
 
